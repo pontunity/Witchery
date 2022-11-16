@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{68dafc32-e56b-417b-a0a5-89d1e742f23a}">
+		<property name="name">
+			<value>BookPages</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1622cc35-492c-4384-9690-7c4b6913c77a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{01eef5a6-740c-4a82-8f96-011da3c3242f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{01eef5a6-740c-4a82-8f96-011da3c3242f}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
