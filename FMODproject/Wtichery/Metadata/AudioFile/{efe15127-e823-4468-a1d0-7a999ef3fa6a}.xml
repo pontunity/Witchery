@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{efe15127-e823-4468-a1d0-7a999ef3fa6a}">
+		<property name="assetPath">
+			<value>Alexandrafootstep.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>23.393208333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d588ff38-f2f6-4330-a524-6c907a8192e4}</destination>
+		</relationship>
+	</object>
+</objects>

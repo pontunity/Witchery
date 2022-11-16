@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d1fcef73-061a-4e9f-8abf-afa229c4fcc7}">
+		<property name="name">
+			<value>Wind</value>
+		</property>
+		<relationship name="folder">
+			<destination>{960f1308-8c51-4995-931f-74bbc26a4665}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{678ef370-3a1d-4730-88ef-2804ad8af59f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{678ef370-3a1d-4730-88ef-2804ad8af59f}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.15000000596046448</value>
+		</property>
+	</object>
+</objects>
