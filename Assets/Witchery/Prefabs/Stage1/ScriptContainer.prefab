@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8924215847572498855}
-  - component: {fileID: 3622268586347304109}
   - component: {fileID: 1133633347}
   - component: {fileID: 1133633348}
+  - component: {fileID: 2388364352289071930}
   m_Layer: 0
   m_Name: ScriptContainer
   m_TagString: Untagged
@@ -29,23 +29,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3622268586347304109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8924215847572498854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c1ddeb8dd5bdc34aa26adb21a674691, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  headSetPos: {fileID: 0}
 --- !u!114 &1133633347
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,3 +65,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowchart: {fileID: 0}
+--- !u!114 &2388364352289071930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8924215847572498854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e656364f96e480e44b6b8b0e92beeb66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetTransform: {fileID: 0}
+  player: {fileID: 0}
+  playerHead: {fileID: 0}
+  zPosition: 2

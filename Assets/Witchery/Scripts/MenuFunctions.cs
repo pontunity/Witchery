@@ -19,6 +19,12 @@ public class MenuFunctions : MonoBehaviour
     [SerializeField]
     Slider volumeSlider;
 
+    [SerializeField]
+    Slider depthSlider;
+
+
+    public float depthSliderValue;
+
     public float heightSliderValue;
 
     [SerializeField]
@@ -38,7 +44,7 @@ public class MenuFunctions : MonoBehaviour
     {
       ChangeHeight();
       ChangeMasterVolume();
-
+      ChangeDepth();
 
     }
 
@@ -81,6 +87,15 @@ public class MenuFunctions : MonoBehaviour
         temp.y = heightSliderValue;
         
         headsetHeight.transform.position = transform.localPosition = temp;
+    }
+
+    public void ChangeDepth()
+    {
+        depthSliderValue = depthSlider.value;
+        Vector3 tempDeph = transform.position;
+        tempDeph.z = depthSliderValue;
+
+        headsetHeight.transform.position = transform.localPosition = tempDeph;
     }
 
 }
