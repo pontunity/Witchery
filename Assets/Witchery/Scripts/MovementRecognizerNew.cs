@@ -64,7 +64,7 @@ public class MovementRecognizerNew : MonoBehaviour
 
     void StartMovement()
     {
-        Debug.Log("Start Movement");
+       // Debug.Log("Start Movement");
         isMoving = true;
         positionsList.Clear();
         positionsList.Add(MovementSource.position);
@@ -76,7 +76,7 @@ public class MovementRecognizerNew : MonoBehaviour
 
     void EndMovement()
     {
-        Debug.Log("End Movement");
+       // Debug.Log("End Movement");
         isMoving = false;
         // Create the gesture from the posisttion list
         Point[] pointArray = new Point[positionsList.Count];
@@ -110,7 +110,7 @@ public class MovementRecognizerNew : MonoBehaviour
 
     void UpdateMovement()
     {
-        Debug.Log("Update Movement");
+       // Debug.Log("Update Movement");
         Vector3 lastPosition = positionsList[positionsList.Count - 1];
         if (Vector3.Distance(MovementSource.position, lastPosition) > newPositionThresholdDistance)
         {
