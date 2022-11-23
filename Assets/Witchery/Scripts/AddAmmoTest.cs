@@ -12,11 +12,13 @@ public class AddAmmoTest : MonoBehaviour
         if (patternName == "X")
         {
             Debug.Log("X was Drawn");
+            ammo++;
         }
 
         else if (patternName == "P")
         {
             Debug.Log("P was Drawn");
+            
         }
     }
 }
