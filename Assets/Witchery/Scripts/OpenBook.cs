@@ -9,11 +9,13 @@ public class OpenBook : MonoBehaviour
     public Flowchart flowchart;
 
     // Start is called before the first frame update
-    private void OnTriggerEnter(Collider other)
+    public void OpenTheBook()
     {
         if (hasBeenTriggered == false)
         {
             flowchart.ExecuteBlock("Stage 1 Page 1");
+            hasBeenTriggered = true;
+            Debug.Log("Open BOOK!");
         }
 
     }

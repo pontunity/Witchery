@@ -11,8 +11,10 @@ using UnityEngine.InputSystem;
 
         public InputActionReference InputAction = default;
         public GameObject ToggleObject = default;
+        public GameObject ToggleRayController = default;
+        public GameObject ToggleActionController = default;
 
-        private void OnEnable() {
+    private void OnEnable() {
             InputAction.action.performed += ToggleActive;
         }
 
@@ -23,7 +25,9 @@ using UnityEngine.InputSystem;
         public void ToggleActive(InputAction.CallbackContext context) {
             if(ToggleObject) {
                 ToggleObject.SetActive(!ToggleObject.activeSelf);
-            }
+                ToggleRayController.SetActive(!ToggleRayController.activeSelf);
+                ToggleActionController.SetActive(!ToggleActionController.activeSelf);
+        }
         }
     
 }

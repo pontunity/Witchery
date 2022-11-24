@@ -10,11 +10,12 @@ public class TouchWand : MonoBehaviour
 
     // Start is called before the first frame
     // 
-    private void OnTriggerEnter(Collider other)
+    public void TouchTheWand()
     {
         if (hasBeenTriggered == false)
         {
             flowchart.ExecuteBlock("ChangeScene");
+            hasBeenTriggered = true;
         }
 
     }
