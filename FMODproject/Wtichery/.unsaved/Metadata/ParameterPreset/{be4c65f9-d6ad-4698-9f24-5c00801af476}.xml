@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{be4c65f9-d6ad-4698-9f24-5c00801af476}">
+		<property name="name">
+			<value>FireSpell</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1622cc35-492c-4384-9690-7c4b6913c77a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4defe906-3201-4a0e-8f2a-d793627cbe5c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4defe906-3201-4a0e-8f2a-d793627cbe5c}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
