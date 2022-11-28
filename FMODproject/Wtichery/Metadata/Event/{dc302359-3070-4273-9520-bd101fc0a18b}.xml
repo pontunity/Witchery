@@ -5,7 +5,7 @@
 			<value>VoiceStage2</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{87daa717-bdd1-43ff-8bf4-8364ca71972f}</destination>
@@ -100,11 +100,17 @@
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{003824e7-ed0d-4400-a5a9-cc2ac2d65679}">
+		<relationship name="modules">
+			<destination>{5463ba9c-51da-439f-9e1d-d279745e064f}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{293e99f1-93e2-48d6-8c7b-e0efdf810206}</destination>
 		</relationship>
 	</object>
 	<object class="GroupTrack" id="{391dfaf8-8874-41dd-b49f-9dcef824cddd}">
+		<relationship name="modules">
+			<destination>{958f41e3-8c49-49d7-b7a1-f20bb5058991}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{7f19f876-3383-4d6c-aa5b-6c47af0dec21}</destination>
 		</relationship>
@@ -125,6 +131,8 @@
 			<destination>{9436b494-330a-4e9f-b634-d32d09a37469}</destination>
 			<destination>{dd803156-e6c9-4554-9a70-85af9fa90330}</destination>
 			<destination>{068c0e18-5ace-47f0-8603-5c9850b6693b}</destination>
+			<destination>{5463ba9c-51da-439f-9e1d-d279745e064f}</destination>
+			<destination>{958f41e3-8c49-49d7-b7a1-f20bb5058991}</destination>
 		</relationship>
 		<relationship name="preset">
 			<destination>{9dc7a1e1-2f4d-4a8b-8f3f-46de29391a41}</destination>
@@ -236,6 +244,14 @@
 			<destination>{04f1e9b6-7e98-409e-98dc-859518413559}</destination>
 		</relationship>
 	</object>
+	<object class="SingleSound" id="{5463ba9c-51da-439f-9e1d-d279745e064f}">
+		<property name="start">
+			<value>5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{d82042e6-02d5-4714-8013-0f79b5de2739}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{293e99f1-93e2-48d6-8c7b-e0efdf810206}">
 		<property name="name">
 			<value>Audio 5</value>
@@ -248,6 +264,14 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{04f1e9b6-7e98-409e-98dc-859518413559}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{958f41e3-8c49-49d7-b7a1-f20bb5058991}">
+		<property name="start">
+			<value>6</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{7d862f70-cfe8-45ae-9619-a313ab8d4cc3}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7f19f876-3383-4d6c-aa5b-6c47af0dec21}">
@@ -266,7 +290,11 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{ea45ae5f-4895-4d8f-a0a3-0bf495afa4fa}">
 		<relationship name="effects">
+			<destination>{9d34b7e4-239e-45d2-985f-ed17fb18283a}</destination>
 			<destination>{b49cbcdd-4666-42e0-bf4e-0f3a09a69d67}</destination>
+			<destination>{3b3d7439-d6e3-40c1-8284-32b8583e4334}</destination>
+			<destination>{08a798a3-d77b-4d24-83f8-53f372e36485}</destination>
+			<destination>{789b004e-ba0e-4773-8402-ee218d5b9efb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7f02678f-aa42-47f9-9e9c-bc98e88d9a82}" />
@@ -307,7 +335,45 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{72d27189-4f72-4e5e-b67c-304b5fc52c6b}" />
+	<object class="CompressorEffect" id="{9d34b7e4-239e-45d2-985f-ed17fb18283a}">
+		<property name="attackTime">
+			<value>7.80000019</value>
+		</property>
+		<property name="releaseTime">
+			<value>92</value>
+		</property>
+		<property name="gain">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{b49cbcdd-4666-42e0-bf4e-0f3a09a69d67}" />
+	<object class="ConvolutionReverbEffect" id="{3b3d7439-d6e3-40c1-8284-32b8583e4334}">
+		<property name="dryLevel">
+			<value>5</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{08a798a3-d77b-4d24-83f8-53f372e36485}">
+		<property name="lowGain">
+			<value>-5</value>
+		</property>
+	</object>
+	<object class="SFXReverbEffect" id="{789b004e-ba0e-4773-8402-ee218d5b9efb}">
+		<property name="decayTime">
+			<value>1700</value>
+		</property>
+		<property name="earlyDelay">
+			<value>10</value>
+		</property>
+		<property name="lateDelay">
+			<value>53</value>
+		</property>
+		<property name="wetLevel">
+			<value>-7</value>
+		</property>
+		<property name="dryLevel">
+			<value>-3.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{eb75deca-b734-4a59-9081-b4fe47088b53}" />
 	<object class="MixerBusFader" id="{c3d932a8-728c-4f13-8bc7-1e4b55445742}" />
 	<object class="MixerBusFader" id="{90850230-9095-4781-b5bf-9766cc3e187d}" />
