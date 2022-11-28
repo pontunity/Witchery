@@ -3,12 +3,7 @@ guid: 0510d7798cf0ce54d8d289eacb6c5075
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Blue_Target
-    second: {fileID: 2100000, guid: ee5fb66bdb68d384aba697f2ffab4c64, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

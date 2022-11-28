@@ -18,7 +18,7 @@ public class DestroyBullet : MonoBehaviour
 
     void DestroyObjectDelayed()
     {
-        // Kills the game object in 3 seconds after loading the object
-        Destroy(gameObject, 3);
+        // Kills the game object in 5 seconds after loading the object
+        Destroy(gameObject, 5);
     }
 }

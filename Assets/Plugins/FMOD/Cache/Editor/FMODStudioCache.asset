@@ -69,10 +69,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638042084913801981
+  lastModified: 638052501986073325
   FileSizes:
   - Name: 
-    Value: 1506
+    Value: 1898
   Exists: 1
 --- !u!114 &-7619868647358685271
 MonoBehaviour:
@@ -238,6 +238,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12000
+--- !u!114 &-3133220139912866040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FireSpell
+  m_EditorClassIdentifier: 
+  Path: event:/FireSpell
+  Guid:
+    Data1: -1622037770
+    Data2: 1150952973
+    Data3: 1978667149
+    Data4: -128411719
+  Banks:
+  - {fileID: 3249931762237924849}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2206789989871512695}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3103639421010450371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,6 +293,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 75691
+--- !u!114 &-27736069323827342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Torch
+  m_EditorClassIdentifier: 
+  Path: event:/Torch
+  Guid:
+    Data1: -884927829
+    Data2: 1090761561
+    Data3: 1160953479
+    Data4: 193558606
+  Banks:
+  - {fileID: 3249931762237924849}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-26716739440920073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,12 +378,17 @@ MonoBehaviour:
   - {fileID: -26716739440920073}
   - {fileID: 1249460020009625008}
   - {fileID: 6043480247568342937}
+  - {fileID: 4467069273745805361}
+  - {fileID: 8911579356351061451}
+  - {fileID: -27736069323827342}
+  - {fileID: -3133220139912866040}
+  - {fileID: 191424225048805675}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3249931762237924849}
   StringsBanks:
   - {fileID: -8085149052289481491}
-  cacheTime: 638042084913801981
+  cacheTime: 638052501986073325
   cacheVersion: 131593
 --- !u!114 &135874355434274982
 MonoBehaviour:
@@ -354,6 +414,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &191424225048805675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Stage2Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Stage2Ambience
+  Guid:
+    Data1: -34678426
+    Data2: 1151102660
+    Data3: 1337136030
+    Data4: 462312763
+  Banks:
+  - {fileID: 3249931762237924849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &632613864458371326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,6 +495,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 62255
+--- !u!114 &2206789989871512695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FireSpell/FireSpell
+  m_EditorClassIdentifier: 
+  Name: FireSpell
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 507759751
+    data2: 3945746351
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2398768726819116957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459,6 +570,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &3124989033322072338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/IceSpell/IceSpell
+  m_EditorClassIdentifier: 
+  Name: IceSpell
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 2262318840
+    data2: 3302743642
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3249931762237924849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -474,7 +609,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638042084913644658
+  lastModified: 638052501985958450
   FileSizes: []
   Exists: 1
 --- !u!114 &3943835296792011376
@@ -497,6 +632,58 @@ MonoBehaviour:
   ID:
     data1: 4275770066
     data2: 403582840
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4467069273745805361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EarthSpell
+  m_EditorClassIdentifier: 
+  Path: event:/EarthSpell
+  Guid:
+    Data1: -670316021
+    Data2: 1130001699
+    Data3: 1647601058
+    Data4: 868955048
+  Banks:
+  - {fileID: 3249931762237924849}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5039900637448336270}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5039900637448336270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EarthSpell/EarthSpell
+  m_EditorClassIdentifier: 
+  Name: EarthSpell
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 1
+  ID:
+    data1: 3843945466
+    data2: 3592156061
   Type: 1
   IsGlobal: 0
   Labels: []
@@ -553,6 +740,34 @@ MonoBehaviour:
   IsOneShot: 1
   Parameters:
   - {fileID: 2527532520078619221}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8911579356351061451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/IceSpell
+  m_EditorClassIdentifier: 
+  Path: event:/IceSpell
+  Guid:
+    Data1: -265979284
+    Data2: 1339425601
+    Data3: -1866269797
+    Data4: -1275665021
+  Banks:
+  - {fileID: 3249931762237924849}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3124989033322072338}
   MinDistance: 1
   MaxDistance: 20
   Length: 0

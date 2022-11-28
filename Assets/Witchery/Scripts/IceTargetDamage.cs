@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TargetDamageScript : MonoBehaviour
+public class IceTargetDamage : MonoBehaviour
 {
     public int targetHealth = 20;
 
@@ -11,7 +11,7 @@ public class TargetDamageScript : MonoBehaviour
         // if the target collider is hit by a object with the tag bullet, decrease the target health by 35, 
      
         
-      if (collision.gameObject.tag == "Bullet")
+      if (collision.gameObject.tag == "IceBullet")
          {
             Debug.Log("Target Hit");
             targetHealth = targetHealth - 35;
@@ -22,12 +22,15 @@ public class TargetDamageScript : MonoBehaviour
                 Debug.Log("Target Dead"); 
                 // if it is less than zero set it back to zero.
                 targetHealth = 0;
+                
                 Destroy(this.gameObject);
                 // run the zombie death function
                 // ZombieDeath();
+
             }
 
          }
+
     }
     void ZombieDeath()
     {

@@ -9,7 +9,10 @@ using FMODUnity;
 public class SimpleShoot : MonoBehaviour
 {
     [Header("Prefab Refrences")]
-    public GameObject bulletPrefab;
+
+    public GameObject IcePrefab;
+    public GameObject EarthPrefab;
+    public GameObject FirePrefab;
     public GameObject casingPrefab;
     public GameObject muzzleFlashPrefab;
 
@@ -30,11 +33,15 @@ public class SimpleShoot : MonoBehaviour
    // public AudioClip gunDryfire;
     public Ammo ammo;
     public XRBaseInteractor socketInteractor;
-    public int numberOfBulletsLeft = 0;
+    public int FireAmmoLeft= 0;
+    public int IceAmmoLeft = 0;
+    public int EarthAmmoLeft = 0;
 
 
- 
+
     [SerializeField] EventReference WandFire;
+    [SerializeField] EventReference WandIce;
+    [SerializeField] EventReference WandEarth;
     [SerializeField] EventReference WandChargeUp;
     [SerializeField] EventReference WandDryfire;
 
@@ -54,13 +61,24 @@ public class SimpleShoot : MonoBehaviour
     public void FireGun()
     {
         // if the gun have bullets left then call the animator to fire the gun
-        if (numberOfBulletsLeft > 0)
+        if (FireAmmoLeft > 0)
         {
             Debug.Log("Fired The gun");
             // gunAnimator.SetTrigger("Fire"); 
-            Shoot();
+            ShootFire();
 
         }
+        else if (IceAmmoLeft > 0)
+        {
+            ShootIce();
+        }
+
+        else if (EarthAmmoLeft > 0)
+        {
+            ShootEarth();
+        }
+
+
         else
         {
             RuntimeManager.PlayOneShot(WandDryfire);
@@ -72,7 +90,7 @@ public class SimpleShoot : MonoBehaviour
 
 
     //This function creates the bullet behavior
-    void Shoot()
+    void ShootFire()
     {
         // Plays the fireGunsound 
        // source.PlayOneShot(fireGunSound);
@@ -80,7 +98,7 @@ public class SimpleShoot : MonoBehaviour
 
         if (muzzleFlashPrefab)
         {
-            numberOfBulletsLeft--;
+            FireAmmoLeft--;
             //Create the muzzle flash
             GameObject tempFlash;
             tempFlash = Instantiate(muzzleFlashPrefab, barrelLocation.position, barrelLocation.rotation);
@@ -90,11 +108,63 @@ public class SimpleShoot : MonoBehaviour
         }
 
         //cancels if there's no bullet prefeb
-        if (!bulletPrefab)
+        if (!FirePrefab)
         { return; }
 
         // Create a bullet and add force on it in direction of the barrel
-        Instantiate(bulletPrefab, barrelLocation.position, barrelLocation.rotation).GetComponent<Rigidbody>().AddForce(barrelLocation.forward * shotPower);
+        Instantiate(FirePrefab, barrelLocation.position, barrelLocation.rotation).GetComponent<Rigidbody>().AddForce(barrelLocation.forward * shotPower);
+
+    }
+
+    void ShootIce()
+    {
+        // Plays the fireGunsound 
+        // source.PlayOneShot(fireGunSound);
+        RuntimeManager.PlayOneShot(WandIce);
+
+        if (muzzleFlashPrefab)
+        {
+            IceAmmoLeft--;
+            //Create the muzzle flash
+            GameObject tempFlash;
+            tempFlash = Instantiate(muzzleFlashPrefab, barrelLocation.position, barrelLocation.rotation);
+
+            //Destroy the muzzle flash effect
+            Destroy(tempFlash, destroyTimer);
+        }
+
+        //cancels if there's no bullet prefeb
+        if (!IcePrefab)
+        { return; }
+
+        // Create a bullet and add force on it in direction of the barrel
+        Instantiate(IcePrefab, barrelLocation.position, barrelLocation.rotation).GetComponent<Rigidbody>().AddForce(barrelLocation.forward * shotPower);
+
+    }
+
+    void ShootEarth()
+    {
+        // Plays the fireGunsound 
+        // source.PlayOneShot(fireGunSound);
+        RuntimeManager.PlayOneShot(WandEarth);
+
+        if (muzzleFlashPrefab)
+        {
+            EarthAmmoLeft--;
+            //Create the muzzle flash
+            GameObject tempFlash;
+            tempFlash = Instantiate(muzzleFlashPrefab, barrelLocation.position, barrelLocation.rotation);
+
+            //Destroy the muzzle flash effect
+            Destroy(tempFlash, destroyTimer);
+        }
+
+        //cancels if there's no bullet prefeb
+        if (!EarthPrefab)
+        { return; }
+
+        // Create a bullet and add force on it in direction of the barrel
+        Instantiate(EarthPrefab, barrelLocation.position, barrelLocation.rotation).GetComponent<Rigidbody>().AddForce(barrelLocation.forward * shotPower);
 
     }
 
@@ -137,12 +207,27 @@ public class SimpleShoot : MonoBehaviour
 
     public void PaternRecognition(string patternName)
     {
-        if (patternName == "X")
+        if (patternName == "Fire")
+        {
+            RuntimeManager.PlayOneShot(WandChargeUp);
+            Debug.Log("Fire was drawn");
+            FireAmmoLeft++;
+        }
+
+        if (patternName == "Earth")
         {
             RuntimeManager.PlayOneShot(WandChargeUp);
             Debug.Log("X was Drawn");
-            numberOfBulletsLeft++;
+            EarthAmmoLeft++;
         }
+
+        if (patternName == "Ice")
+        {
+            RuntimeManager.PlayOneShot(WandChargeUp);
+            Debug.Log("X was Drawn");
+            IceAmmoLeft++;
+        }
+
 
         else if (patternName == "P")
         {
