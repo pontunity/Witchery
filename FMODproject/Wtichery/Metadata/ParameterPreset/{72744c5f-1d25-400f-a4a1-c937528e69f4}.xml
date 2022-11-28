@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{72744c5f-1d25-400f-a4a1-c937528e69f4}">
+		<property name="name">
+			<value>EarthSpell</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1622cc35-492c-4384-9690-7c4b6913c77a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d31cc5f3-f92f-46bc-91a1-c8cba1910f35}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d31cc5f3-f92f-46bc-91a1-c8cba1910f35}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

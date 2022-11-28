@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{633e7eb1-211b-4c15-a502-7d03638bbbf7}">
+		<property name="name">
+			<value>IceSpell</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1622cc35-492c-4384-9690-7c4b6913c77a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{89ff9515-1a23-403f-99b3-fc580d2f8f5a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{89ff9515-1a23-403f-99b3-fc580d2f8f5a}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>

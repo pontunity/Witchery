@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fd22f1f5-39bd-4d6c-86d1-e7d129ea92cc}">
+		<property name="assetPath">
+			<value>fire.cast.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.1858749999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d588ff38-f2f6-4330-a524-6c907a8192e4}</destination>
+		</relationship>
+	</object>
+</objects>
