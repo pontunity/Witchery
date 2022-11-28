@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1133633347}
   - component: {fileID: 1133633348}
   - component: {fileID: 2388364352289071930}
+  - component: {fileID: 1606593546}
   m_Layer: 0
   m_Name: ScriptContainer
   m_TagString: Untagged
@@ -49,6 +50,8 @@ MonoBehaviour:
   Paused: 0
   masterVolume: 1
   volumeSlider: {fileID: 0}
+  depthSlider: {fileID: 0}
+  depthSliderValue: 0
   heightSliderValue: 0
   heightSlider: {fileID: 0}
   headsetHeight: {fileID: 0}
@@ -81,3 +84,19 @@ MonoBehaviour:
   player: {fileID: 0}
   playerHead: {fileID: 0}
   zPosition: 2
+--- !u!114 &1606593546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8924215847572498854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b097afde6374a7d4d92b4e7be55abc00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InputAction: {fileID: -5528084549833367072, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  ToggleObject: {fileID: 0}
+  ToggleRayController: {fileID: 0}
+  ToggleActionController: {fileID: 0}

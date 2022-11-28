@@ -2016,7 +2016,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1133633347, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
   m_PrefabInstance: {fileID: 1606593543}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606593545}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ae1c9d00307ab049855a07a281961db, type: 3}
@@ -2027,7 +2027,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1133633348, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
   m_PrefabInstance: {fileID: 1606593543}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606593545}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1205dbaedfbfb1743805742dc384a22b, type: 3}
@@ -2547,7 +2547,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331817386}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.811}
+  m_LocalPosition: {x: 0, y: 1.085, z: 0.161}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2984,7 +2984,7 @@ Transform:
   m_Children:
   - {fileID: 732258346}
   m_Father: {fileID: 4425555429609522180}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1592572759
 MonoBehaviour:
@@ -3284,10 +3284,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1133633347, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1133633347, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
       propertyPath: depthSlider
       value: 
       objectReference: {fileID: 1926890609}
@@ -3302,11 +3298,23 @@ PrefabInstance:
     - target: {fileID: 1133633347, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
       propertyPath: headsetHeight
       value: 
-      objectReference: {fileID: 1106322989818709604}
+      objectReference: {fileID: 1678154667}
     - target: {fileID: 1133633348, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
       propertyPath: flowchart
       value: 
       objectReference: {fileID: 791928415}
+    - target: {fileID: 1606593546, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
+      propertyPath: ToggleObject
+      value: 
+      objectReference: {fileID: 4319512236397973817}
+    - target: {fileID: 1606593546, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
+      propertyPath: ToggleRayController
+      value: 
+      objectReference: {fileID: 1188037614}
+    - target: {fileID: 1606593546, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
+      propertyPath: ToggleActionController
+      value: 
+      objectReference: {fileID: 1592572757}
     - target: {fileID: 2388364352289071930, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
       propertyPath: player
       value: 
@@ -3319,10 +3327,6 @@ PrefabInstance:
       propertyPath: resetTransform
       value: 
       objectReference: {fileID: 1331817390}
-    - target: {fileID: 3622268586347304109, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
-      propertyPath: headSetPos
-      value: 
-      objectReference: {fileID: 1106322988785456224}
     - target: {fileID: 8924215847572498854, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
       propertyPath: m_Name
       value: ScriptContainer
@@ -3373,33 +3377,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
---- !u!1 &1606593545 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8924215847572498854, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
-  m_PrefabInstance: {fileID: 1606593543}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1606593546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606593545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b097afde6374a7d4d92b4e7be55abc00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InputAction: {fileID: -5528084549833367072, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  ToggleObject: {fileID: 4319512236397973817}
-  ToggleRayController: {fileID: 1188037614}
-  ToggleActionController: {fileID: 1592572757}
 --- !u!114 &1606593548 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2388364352289071930, guid: d4bff32afbea9b64bb88aed6a382a256, type: 3}
   m_PrefabInstance: {fileID: 1606593543}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1606593545}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e656364f96e480e44b6b8b0e92beeb66, type: 3}
@@ -3534,6 +3517,11 @@ MonoBehaviour:
 Animator:
   m_CorrespondingSourceObject: {fileID: 1383282170885589304, guid: 3520a04a24680584784f07362355bdd1, type: 3}
   m_PrefabInstance: {fileID: 1383282171359671068}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1678154667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3616612407290007651, guid: 8ad94a66ae7878148b203ddbd2028e1e, type: 3}
+  m_PrefabInstance: {fileID: 4425555429609522179}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1691410626 stripped
 GameObject:
@@ -4376,11 +4364,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f5149b49c623dd47a27134806789ab3, type: 3}
---- !u!1 &1106322988785456224 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3616612407290007651, guid: 8ad94a66ae7878148b203ddbd2028e1e, type: 3}
-  m_PrefabInstance: {fileID: 4425555429609522179}
-  m_PrefabAsset: {fileID: 0}
 --- !u!20 &1106322988785456228 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 3616612407290007655, guid: 8ad94a66ae7878148b203ddbd2028e1e, type: 3}
@@ -5362,6 +5345,10 @@ PrefabInstance:
     - target: {fileID: 3616612406984388373, guid: 8ad94a66ae7878148b203ddbd2028e1e, type: 3}
       propertyPath: m_AllowAnchorControl
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3616612407290007652, guid: 8ad94a66ae7878148b203ddbd2028e1e, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3616612407290007655, guid: 8ad94a66ae7878148b203ddbd2028e1e, type: 3}
       propertyPath: m_BackGroundColor.b

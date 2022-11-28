@@ -42,9 +42,9 @@ public class MenuFunctions : MonoBehaviour
 
     private void Update()
     {
-      ChangeHeight();
-      ChangeMasterVolume();
-      ChangeDepth();
+     ChangeHeight();
+     // ChangeMasterVolume();
+     // ChangeDepth();
 
     }
 
@@ -85,6 +85,8 @@ public class MenuFunctions : MonoBehaviour
         heightSliderValue = heightSlider.value;
         Vector3 temp = transform.position;
         temp.y = heightSliderValue;
+        temp.z = 0;
+        temp.x = 0;
         
         headsetHeight.transform.position = transform.localPosition = temp;
     }
