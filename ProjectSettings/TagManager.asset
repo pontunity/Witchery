@@ -9,6 +9,7 @@ TagManager:
   - EarthBullet
   - IceBullet
   - FireBullet
+  - Enemy
   layers:
   - Default
   - TransparentFX

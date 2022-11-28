@@ -9,7 +9,19 @@ public class DestroyBullet : MonoBehaviour
     {
         
     }
+    void OnCollisionEnter(Collision collision)
+    {
+        // if the target collider is hit by a object with the tag bullet, decrease the target health by 35, 
 
+
+        if (collision.gameObject.tag == "Enemy")
+        {          
+
+                Destroy(this.gameObject);
+   
+        }
+
+    }
     // Update is called once per frame
     void Update()
     {

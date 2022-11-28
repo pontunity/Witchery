@@ -69,10 +69,10 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638052501986073325
+  lastModified: 638052571788653707
   FileSizes:
   - Name: 
-    Value: 1898
+    Value: 1940
   Exists: 1
 --- !u!114 &-7619868647358685271
 MonoBehaviour:
@@ -238,6 +238,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 12000
+--- !u!114 &-3167251419329689534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/VoiceStage2
+  m_EditorClassIdentifier: 
+  Path: event:/VoiceStage2
+  Guid:
+    Data1: -600824999
+    Data2: 1114845296
+    Data3: 280830101
+    Data4: -1952333793
+  Banks:
+  - {fileID: 3249931762237924849}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5722758590228345351}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3133220139912866040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,12 +411,13 @@ MonoBehaviour:
   - {fileID: -27736069323827342}
   - {fileID: -3133220139912866040}
   - {fileID: 191424225048805675}
+  - {fileID: -3167251419329689534}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3249931762237924849}
   StringsBanks:
   - {fileID: -8085149052289481491}
-  cacheTime: 638052501986073325
+  cacheTime: 638052571788653707
   cacheVersion: 131593
 --- !u!114 &135874355434274982
 MonoBehaviour:
@@ -609,7 +638,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638052501985958450
+  lastModified: 638052571788473605
   FileSizes: []
   Exists: 1
 --- !u!114 &3943835296792011376
@@ -684,6 +713,30 @@ MonoBehaviour:
   ID:
     data1: 3843945466
     data2: 3592156061
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5722758590228345351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/VoiceStage2/VoiceStage2
+  m_EditorClassIdentifier: 
+  Name: VoiceStage2
+  StudioPath: 
+  Min: 0
+  Max: 6
+  Default: 1
+  ID:
+    data1: 3904012662
+    data2: 2319057143
   Type: 1
   IsGlobal: 0
   Labels: []

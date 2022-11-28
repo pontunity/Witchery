@@ -5,6 +5,7 @@ using UnityEngine;
 public class FireTargetDamage : MonoBehaviour
 {
     public int targetHealth = 20;
+    public GameObject FireParticleSystem;
 
     void OnCollisionEnter(Collision collision)
     {
@@ -22,7 +23,9 @@ public class FireTargetDamage : MonoBehaviour
                 Debug.Log("Target Dead"); 
                 // if it is less than zero set it back to zero.
                 targetHealth = 0;
-                
+
+                FireParticleSystem.SetActive(true);
+
                 Destroy(this.gameObject);
                 // run the zombie death function
                 // ZombieDeath();

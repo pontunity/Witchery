@@ -5,6 +5,7 @@ using UnityEngine;
 public class EarthTargetDamage : MonoBehaviour
 {
     public int targetHealth = 20;
+    public GameObject earthParticleSystem;
 
     void OnCollisionEnter(Collision collision)
     {
@@ -22,10 +23,13 @@ public class EarthTargetDamage : MonoBehaviour
                 Debug.Log("Target Dead"); 
                 // if it is less than zero set it back to zero.
                 targetHealth = 0;
-                
+
+                earthParticleSystem.SetActive(true);
+
                 Destroy(this.gameObject);
                 // run the zombie death function
                 // ZombieDeath();
+
 
             }
 
