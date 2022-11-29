@@ -2359,9 +2359,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1383282170027010857, guid: 3520a04a24680584784f07362355bdd1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1383282170027010858, guid: 3520a04a24680584784f07362355bdd1, type: 3}
       propertyPath: m_Intensity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383282170885589305, guid: 3520a04a24680584784f07362355bdd1, type: 3}
+      propertyPath: m_Range
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383282170885589305, guid: 3520a04a24680584784f07362355bdd1, type: 3}
+      propertyPath: m_SpotAngle
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1383282170885589310, guid: 3520a04a24680584784f07362355bdd1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1383282171081712950, guid: 3520a04a24680584784f07362355bdd1, type: 3}
       propertyPath: m_Name
@@ -2924,6 +2940,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 470822149964482668, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 470822150724389276, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6742558691645685386, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8578622892241433908, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2974,7 +3002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8578622892241433909, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
