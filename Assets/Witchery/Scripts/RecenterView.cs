@@ -13,8 +13,8 @@ public class RecenterView : MonoBehaviour
         headSetPos.transform.position = new Vector3(0, 0, 0);
         var rotation = headSetPos.transform.eulerAngles;
         rotation.x = 0;
-        rotation.z = 0;
-        rotation.y = 0;
+        rotation.z = 0.161f;
+        rotation.y = 1;
         headSetPos.transform.eulerAngles = rotation;
        // heightSlider.value = 1.5f;
     }
