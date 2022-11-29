@@ -42,8 +42,8 @@ public class MenuFunctions : MonoBehaviour
 
     private void Update()
     {
-     ChangeHeight();
-     // ChangeMasterVolume();
+     // ChangeHeight();
+      ChangeMasterVolume();
      // ChangeDepth();
 
     }
