@@ -33,28 +33,33 @@ public class MovementRecognizerNew : MonoBehaviour
 
     void Start()
     {
-       
-         string[] gestureFiles = Directory.GetFiles(Application.streamingAssetsPath, "*.xml");
-         foreach (var item in gestureFiles)
+        /*
+          string[] gestureFiles = Directory.GetFiles(Application.streamingAssetsPath, "*.xml");
+          foreach (var item in gestureFiles)
+          {
+              trainingSet.Add(GestureIO.ReadGestureFromFile(item));
+          }
+
+         //Load pre-made gestures
+         TextAsset[] gesturesXml = Resources.LoadAll<TextAsset>("Gestures");
+         foreach (TextAsset gestureXml in gesturesXml)
          {
-             trainingSet.Add(GestureIO.ReadGestureFromFile(item));
+             trainingSet.Add(GestureIO.ReadGestureFromXML(gestureXml.text));
+             Debug.Log(trainingSet);
          }
-        
-        //Load pre-made gestures
-        TextAsset[] gesturesXml = Resources.LoadAll<TextAsset>("Gestures");
-        foreach (TextAsset gestureXml in gesturesXml)
-        {
-            trainingSet.Add(GestureIO.ReadGestureFromXML(gestureXml.text));
-            Debug.Log(trainingSet);
-        }
 
-        //Load user custom gestures
-        string[] filePaths = Directory.GetFiles(Application.streamingAssetsPath, "*.xml");
-        foreach (string filePath in filePaths)
-            trainingSet.Add(GestureIO.ReadGestureFromFile(filePath));
-       
+         //Load user custom gestures
+         string[] filePaths = Directory.GetFiles(Application.streamingAssetsPath, "*.xml");
+         foreach (string filePath in filePaths)
+             trainingSet.Add(GestureIO.ReadGestureFromFile(filePath));
+        */
+
+        string gestureXMLString = Resources.Load("Earth").ToString();
+        trainingSet.Add(GestureIO.ReadGestureFromXML(gestureXMLString));
+        Debug.Log(trainingSet);
+
     }
-
+    
     void Update()
     {
         InputHelpers.IsPressed(InputDevices.GetDeviceAtXRNode(inputSource), inputButton, out bool isPressed, inputThreshold);

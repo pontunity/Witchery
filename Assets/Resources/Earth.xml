@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Gesture Name = "Earth">
+	<Stroke>
+		<Point X = "525,9243" Y = "639,8967" T = "0" Pressure = "0" />
+		<Point X = "555,0393" Y = "731,5554" T = "0" Pressure = "0" />
+		<Point X = "585,8899" Y = "821,5045" T = "0" Pressure = "0" />
+		<Point X = "613,9319" Y = "899,4595" T = "0" Pressure = "0" />
+		<Point X = "646,9131" Y = "998,0808" T = "0" Pressure = "0" />
+		<Point X = "674,2911" Y = "1087,135" T = "0" Pressure = "0" />
+		<Point X = "702,0698" Y = "1176,998" T = "0" Pressure = "0" />
+		<Point X = "727,7288" Y = "1268,641" T = "0" Pressure = "0" />
+		<Point X = "795,0614" Y = "1207,382" T = "0" Pressure = "0" />
+		<Point X = "854,9222" Y = "1117,13" T = "0" Pressure = "0" />
+		<Point X = "909,7432" Y = "1031,949" T = "0" Pressure = "0" />
+		<Point X = "971,5381" Y = "948,2249" T = "0" Pressure = "0" />
+		<Point X = "1027,102" Y = "882,0645" T = "0" Pressure = "0" />
+		<Point X = "1084,606" Y = "819,4368" T = "0" Pressure = "0" />
+		<Point X = "1147,442" Y = "749,5355" T = "0" Pressure = "0" />
+		<Point X = "1205,84" Y = "685,6562" T = "0" Pressure = "0" />
+	</Stroke>
+</Gesture>

@@ -3065,6 +3065,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage1TestingPurposeObjects
       objectReference: {fileID: 0}
+    - target: {fileID: 8687765690520854440, guid: ac1bb97ee1eac274cae7b0888ddc1088, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac1bb97ee1eac274cae7b0888ddc1088, type: 3}
 --- !u!1001 &9069357544699318822
