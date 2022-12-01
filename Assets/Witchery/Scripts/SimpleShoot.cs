@@ -217,23 +217,18 @@ public class SimpleShoot : MonoBehaviour
         if (patternName == "Earth")
         {
             RuntimeManager.PlayOneShot(WandChargeUp);
-            Debug.Log("X was Drawn");
+            Debug.Log("Earth was drawn");
             EarthAmmoLeft++;
         }
 
         if (patternName == "Ice")
         {
             RuntimeManager.PlayOneShot(WandChargeUp);
-            Debug.Log("X was Drawn");
+            Debug.Log("Ice was drawn");
             IceAmmoLeft++;
         }
 
 
-        else if (patternName == "P")
-        {
-            Debug.Log("P was Drawn");
-
-        }
     }
 
 }

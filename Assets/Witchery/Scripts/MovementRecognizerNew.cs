@@ -39,24 +39,28 @@ public class MovementRecognizerNew : MonoBehaviour
           {
               trainingSet.Add(GestureIO.ReadGestureFromFile(item));
           }
-
-         //Load pre-made gestures
+        */
+        
+        
+        //Load pre-made gestures
          TextAsset[] gesturesXml = Resources.LoadAll<TextAsset>("Gestures");
          foreach (TextAsset gestureXml in gesturesXml)
          {
              trainingSet.Add(GestureIO.ReadGestureFromXML(gestureXml.text));
              Debug.Log(trainingSet);
          }
-
+/*
          //Load user custom gestures
          string[] filePaths = Directory.GetFiles(Application.streamingAssetsPath, "*.xml");
          foreach (string filePath in filePaths)
              trainingSet.Add(GestureIO.ReadGestureFromFile(filePath));
         */
 
+        /*
         string gestureXMLString = Resources.Load("Earth").ToString();
         trainingSet.Add(GestureIO.ReadGestureFromXML(gestureXMLString));
         Debug.Log(trainingSet);
+        */
 
     }
     
