@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Witchery/Scenes/Scene1.unity
     guid: 34d4259f9b4c6ec4383b5b3ac6362a67
-  - enabled: 1
+  - enabled: 0
     path: Assets/Witchery/Scenes/Scene2New.unity
     guid: 54c0fe618c25a2846bbd1140dc34117b
   m_configObjects:

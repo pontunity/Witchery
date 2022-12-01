@@ -572,7 +572,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8099331083926225733, guid: d1173d20a451e264f918a6166547e565, type: 3}
       propertyPath: InitialModule.maxNumParticles
-      value: 70
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8099331083926225733, guid: d1173d20a451e264f918a6166547e565, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8099331083926225734, guid: d1173d20a451e264f918a6166547e565, type: 3}
       propertyPath: m_RootOrder
@@ -2958,11 +2962,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470822149964482668, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 470822150724389266, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 470822150724389276, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: simulationSpeed
@@ -2982,7 +2986,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470822150724389276, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 470822150724389276, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 470822150724389276, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.atime0
@@ -2997,6 +3005,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2066867489353770203, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3231210486920568025, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
