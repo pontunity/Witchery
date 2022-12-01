@@ -2968,7 +2968,27 @@ PrefabInstance:
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1843189673074337912, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1853343323520077881, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: ps
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2066867489353770203, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6629730950271008907, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: ps
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6742558691645685386, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6892981236819604306, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -3023,6 +3043,14 @@ PrefabInstance:
     - target: {fileID: 8578622892241433909, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578622892673965039, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: ps
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8578622892906756831, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
