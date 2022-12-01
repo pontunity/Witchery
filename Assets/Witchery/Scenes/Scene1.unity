@@ -2945,12 +2945,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 470822149964482668, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 470822149964482668, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 470822149964482668, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 470822150724389276, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: InitialModule.maxNumParticles
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 470822150724389276, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 470822150724389276, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6742558691645685386, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_IsActive
