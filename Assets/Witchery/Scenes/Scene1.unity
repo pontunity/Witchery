@@ -3009,6 +3009,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 643192157272080115, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 643192157272080115, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 643192157272080115, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 643192157272080115, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_SkinnedMotionVectors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 643192157272080115, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6590e9c5604443b48a718a676acea537, type: 2}
@@ -3021,6 +3037,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 655536861872873522, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 655536861872873522, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 655536861872873522, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 655536861872873522, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_SkinnedMotionVectors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 655536861872873522, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6590e9c5604443b48a718a676acea537, type: 2}
@@ -3030,6 +3062,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 696727198813747124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696727198813747124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696727198813747124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696727198813747124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 696727198813747124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_SkinnedMotionVectors
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 696727198813747124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3060,12 +3108,32 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1263541209647686510, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263541209647686510, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1263541210024814198, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1263541210024814198, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263541210024814198, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263541210024814198, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263541210024814198, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1263541210952680036, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3076,12 +3144,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1263541210952680036, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263541210952680036, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263541210952680036, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1263541211001536124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1263541211001536124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263541211001536124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263541211001536124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263541211001536124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1843189673074337912, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3206,6 +3298,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2239424538962908381, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239424538962908381, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239424538962908381, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2239424538962908381, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2312309239266682442, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3549,6 +3653,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3432330923783357631, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432330923783357631, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432330923783357631, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432330923783357631, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_SkinnedMotionVectors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3432330923783357631, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6590e9c5604443b48a718a676acea537, type: 2}
@@ -3558,6 +3678,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4101502192815453379, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101502192815453379, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101502192815453379, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101502192815453379, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101502192815453379, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_SkinnedMotionVectors
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4101502192815453379, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3572,12 +3708,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596478470795376, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478470795376, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478470795376, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596478573860247, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596478573860247, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478573860247, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478573860247, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478573860247, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596478610094340, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3588,12 +3748,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596478610094340, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478610094340, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478610094340, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596478624784747, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596478624784747, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478624784747, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478624784747, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478624784747, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596478667556553, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3604,12 +3788,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596478667556553, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478667556553, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478667556553, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596478692644385, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596478692644385, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478692644385, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478692644385, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478692644385, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596478742282604, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3620,12 +3828,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596478742282604, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478742282604, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478742282604, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596478766369996, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596478766369996, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478766369996, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478766369996, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478766369996, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596478870254033, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3636,12 +3868,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596478870254033, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478870254033, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478870254033, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596478881672892, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596478881672892, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478881672892, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478881672892, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478881672892, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596478926848219, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3652,12 +3908,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596478926848219, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478926848219, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596478926848219, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596479030128722, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479030128722, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479030128722, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479030128722, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479030128722, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479145248743, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3668,12 +3948,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596479145248743, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479145248743, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479145248743, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596479164484873, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479164484873, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479164484873, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479164484873, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479164484873, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479203151629, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3684,12 +3988,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596479203151629, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479203151629, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479203151629, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596479243808898, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479243808898, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479243808898, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479243808898, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479243808898, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479316830960, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3700,12 +4028,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596479316830960, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479316830960, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479316830960, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596479406311327, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479406311327, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479406311327, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479406311327, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479406311327, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479435925169, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3716,12 +4068,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596479435925169, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479435925169, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479435925169, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596479501504594, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479501504594, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479501504594, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479501504594, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479501504594, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479819886266, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3732,12 +4108,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596479819886266, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479819886266, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479819886266, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596479857192470, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479857192470, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479857192470, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479857192470, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479857192470, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479878641342, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3748,12 +4148,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596479878641342, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479878641342, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479878641342, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596479890174907, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479890174907, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479890174907, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479890174907, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479890174907, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479937226196, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3764,12 +4188,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596479937226196, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479937226196, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479937226196, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596479970491713, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479970491713, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479970491713, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479970491713, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479970491713, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479973759740, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3780,12 +4228,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596479973759740, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479973759740, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479973759740, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596479984486650, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479984486650, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479984486650, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479984486650, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479984486650, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596479987970862, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3796,12 +4268,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596479987970862, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479987970862, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596479987970862, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596480045420347, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596480045420347, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480045420347, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480045420347, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480045420347, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596480051866691, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3812,12 +4308,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596480051866691, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480051866691, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480051866691, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596480080996737, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596480080996737, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480080996737, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480080996737, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480080996737, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596480140693295, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3828,12 +4348,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596480140693295, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480140693295, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480140693295, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596480274265191, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596480274265191, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480274265191, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480274265191, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480274265191, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596480314769158, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3844,12 +4388,36 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596480314769158, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480314769158, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480314769158, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596480403101926, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596480403101926, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480403101926, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480403101926, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480403101926, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4257596480428460347, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3860,6 +4428,18 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596480428460347, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480428460347, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480428460347, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4257596480454657351, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -3868,12 +4448,40 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4257596480454657351, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480454657351, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4257596480454657351, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4622065069000133856, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4622065069000133856, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069000133856, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069000133856, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069000133856, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069000133856, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_SkinnedMotionVectors
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4622065069000133856, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -3889,6 +4497,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4622065069459484124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069459484124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069459484124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069459484124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_SkinnedMotionVectors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069459484124, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 071bc1746442dc24c98ae9aca98ab102, type: 2}
@@ -3898,6 +4522,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4622065069714254950, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069714254950, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069714254950, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069714254950, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622065069714254950, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_SkinnedMotionVectors
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4622065069714254950, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
@@ -4786,6 +5426,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5738676369015839645, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
       propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738676369015839645, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738676369015839645, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738676369015839645, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738676369015839645, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
+      propertyPath: m_SkinnedMotionVectors
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5738676369015839645, guid: 85871eb9941f6d8449788decc8d1041d, type: 3}
